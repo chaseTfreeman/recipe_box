@@ -1,0 +1,18 @@
+
+<div class="form">
+<%= form_for @recipe do |f| %>
+<h2>Create New Character</h2>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+
+
+  <%= f.select( :house_id, House.all.collect { |house| [house.name, house.id] } ) %>
+
+  <%= f.label :img_url %>
+  <%= f.text_field :img_url %>
+
+
+  <%= f.submit %>
+<% end %>
+</div>

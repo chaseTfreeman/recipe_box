@@ -1,0 +1,6 @@
+<h2>Edit <%= @box.title %></h2>
+<%= link_to 'Delete', box_path(@box),
+                                        method: :delete,
+                                        data: { confirm: 'Are you sure?' } %>
+
+<%= render 'form' %>

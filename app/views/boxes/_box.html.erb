@@ -1,0 +1,5 @@
+<li>
+    <%= link_to box.name, box %> | <%= link_to 'Delete', box_path(box),
+                                            method: :delete,
+                                            data: { confirm: 'Are you sure?' } %>
+</li>

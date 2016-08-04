@@ -1,0 +1,9 @@
+
+<div id="boxes" class="transitions-enabled">
+  <% @boxes.each do |box| %>
+  <%= box.title %>
+  <div class="box">
+    <%= link_to image_tag("#{box.img_url}"), box_path(box) %>
+  </div>
+    <% end %>
+</div>

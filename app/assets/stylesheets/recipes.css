@@ -1,0 +1,44 @@
+// Place all the styles related to the Recipes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Place all the styles related to the recipes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+img {
+  display: inline-block;
+  max-width:600px;
+  max-height:380px;
+  width: auto;
+  height: auto;
+}
+.recipe-profile {
+  margin: 0 auto;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 30px;
+
+}
+div#recipes {
+margin-top: 20px;
+z-index: -1;
+left: 35px;
+float: left;
+}
+#recipes{
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+.box {
+  margin: 0 auto;
+}
+
+.box img {
+  margin: 3px;
+  width: 80%;
+
+}
